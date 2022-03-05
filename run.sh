@@ -1,4 +1,4 @@
 #!/bin/bash
 
 source ./init.sh
-flask run
+flask run --host=${FLASK_HOST}
