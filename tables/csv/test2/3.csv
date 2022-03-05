@@ -1,0 +1,28 @@
+,"ment and back end development. Front end development, also known as client-side"
+0,"development, is designing and developing websites and web applications using tech-"
+1,nologies that run on the web platform. The purpose of these sites and applications is to
+2,"work as interfaces, also known as Graphical User Interfaces (GUI), for the users. The"
+3,"standard front end technologies include HTML, CSS (Cascading Style Sheets) and"
+4,"JavaScript. In addition, DOM (Document Object Model) is also often counted in these"
+5,technologies as it has become an intrinsic part of web development. Quite often one
+6,can hear an example where front end technologies are described in relation to a per-
+7,"son where HTML is the skeleton, CSS the skin and JavaScript all the actions or func-"
+8,tions that a person can perform. Here DOM could be compared to basic human anato-
+9,my. All these techniques are constantly evolving so a good developer should always be
+10,following what are the newest standards and additions. The main objectives of front
+11,"end development are to provide users with interfaces that are easy to use, fast to load"
+12,and hold relevant content. On top of this the developer should take care that sites are
+13,responsive for different screen sizes and resolutions plus compatible with various
+14,"browsers, operating systems and devices. [3.]"
+15,
+16,2.1 Document Object Model
+17,
+18,The starting point for front end development is the Document Object Model which is a
+19,tree-like way of describing how a website or web application is structured and how all
+20,"the different pieces, or objects with their own specific identities, are related to one an-"
+21,other. It was originally meant to allow making scripts and programs portable for the web
+22,browsers but has since then evolved to become an API (Application Programming In-
+23,"terface) for the HTML and XML (Extensible Markup Language), meaning that it gives"
+24,tools to access and manipulate these types of documents. HTML and XML are similar
+25,ways of describing data in documents and with DOM it is possible to modify their struc-
+26,"ture and content, or even create new documents from the scratch. DOM has been"

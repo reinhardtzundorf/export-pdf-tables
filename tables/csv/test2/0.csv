@@ -1,0 +1,41 @@
+,Author Lauri Seppälä
+0,Title Developing an Auction Module for Online Gaming Service
+1,
+2,Number of Pages 32 pages
+3,Date 29 November 2017
+4,Degree Bachelor of Engineering
+5,Degree Programme Information Technology
+6,Specialisation option Software Engineering
+7,Instructor
+8,"Markku Karhu, Principal Lecturer"
+9,
+10,
+11,The goal of this final year project was to develop an auction module for online gaming ser-
+12,vice as well as a management system for this and other future models. It was also decided
+13,that the development should follow a specific set of practices so that it would be easier to
+14,extend the system in the future.
+15,
+16,A large number of different web technologies and tools were used as part of the process
+17,"which are all described in this thesis. For front end development, common technologies"
+18,"like HTML, CSS and JavaScript were used. In addition, JavaScript’s jQuery library and"
+19,"Twitter’s Bootstrap framework were utilized. Bootstrap, for example, enables bringing to-"
+20,gether all the other front end techniques and provides many components for a faster de-
+21,"velopment process. In the back end, the main tool was a PHP framework called Laravel"
+22,"which utilizes a development architecture style known as MVC. Also, MySQL databases"
+23,were an essential part of the project. The main ideas of all these technologies are ex-
+24,plained in detail where necessary.
+25,
+26,"As a result of this project, a content management system was created and an auction"
+27,module was implemented as a part of this system. This system has been built on a pro-
+28,found foundation to support multiple web sites and future implementations. The auction
+29,module works as a fully functional prototype but will still be thoroughly tested in the future
+30,before its final release. The management system on the other hand is already in use and it
+31,will be utilized with all the future modules. Laravel web application framework was very
+32,"useful in this, as it turned out to be highly efficient and provided a steady environment for"
+33,the development process.
+34,
+35,
+36,
+37,
+38,
+39,"Keywords HTML, CSS, JavaScript, PHP, Laravel, web development"

@@ -1,0 +1,18 @@
+,1,Introduction,1.1
+0,2.0,Front end development,3
+1,,2.1 Document Object Model,3
+2,,2.2 HTML,4
+3,,2.3 CSS,6
+4,,2.4 JavaScript,6
+5,,2.5 Twitter Bootstrap,9
+6,3.0,Back end development,11
+7,,3.1 PHP,12
+8,,3.2 Databases,12
+9,,3.3 Laravel,14
+10,,3.3.1 MVC-architecture,15
+11,,3.3.2 Artisan interface,19
+12,4.0,Project implementation,21
+13,,4.1 Project environment setup,22
+14,,4.2 GamesFactory,24
+15,,4.3 Auction module,28
+16,5.0,Conclusion,32

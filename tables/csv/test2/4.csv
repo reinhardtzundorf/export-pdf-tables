@@ -1,0 +1,13 @@
+,type html here means specifically HTML5 and for other versions it would be necessary
+0,to use different declaration. Starting on row 2 is the HTML element with language at-
+1,tribute set to English. The element continues all the way until the last row and all the
+2,other elements have been set inside its opening and closing tags. The HTML element
+3,almost always consists of head and body. Some information about the document itself
+4,is placed inside the head element and all the visible elements inside the body element.
+5,
+6,HTML elements can be grouped together with class attributes or specified with id at-
+7,tributes in order to have easier access to them when using CSS and JavaScript. A
+8,group of various elements can all be given the same class attribute for unified selection
+9,"or, in similar manner, a single heading can be given a personal id for more specific"
+10,"selection. Using these attributes makes the code more readable and, because of this,"
+11,easier to approach after spending some time away from it. Other good practices in
