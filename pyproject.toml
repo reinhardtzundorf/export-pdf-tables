@@ -9,6 +9,7 @@ python = "^3.8"
 docx = "^0.2.4"
 tabula-py = "^2.3.0"
 requests = "^2.27.1"
+Werkzeug = "^2.0.3"
 
 [tool.poetry.dev-dependencies]
 

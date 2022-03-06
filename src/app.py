@@ -3,11 +3,14 @@
 from flask import Flask, request
 from pathlib import Path
 import requests
+from werkzeug import secure_filename
 
 app = Flask(__name__,
             static_url_path='/assets', 
             static_folder='assets',
             template_folder='templates')
+
+app.config['UPLOAD_FOLDER'] = 'uploads'
 
 @app.route("/", methods=["GET"])
 def form_example():
@@ -22,6 +25,13 @@ def extract_pdf_tables():
     # Get the file.
     file = request.files.get("file")
 
-
+    print(file)
 
     return f'file_name: {file_name}<br>dry_run: {dry_run}<br>file_type: {file_type}<br>'
+
+
+def upload_file():
+   if request.method == 'POST':
+      f = request.files['file']
+      f.save(secure_filename(f.filename))
+      return 'file uploaded successfully'
