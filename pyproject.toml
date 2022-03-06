@@ -8,6 +8,7 @@ authors = ["Reinhardt Zundorf <reinhardt.zundorf@gmail.com>"]
 python = "^3.8"
 docx = "^0.2.4"
 tabula-py = "^2.3.0"
+requests = "^2.27.1"
 
 [tool.poetry.dev-dependencies]
 

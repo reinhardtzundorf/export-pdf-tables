@@ -1,4 +1,3 @@
 #!/bin/bash
 
-source ./init.sh
-flask run --host=${FLASK_HOST}
+sass --watch src/scss/index.scss:src/assets/app.css

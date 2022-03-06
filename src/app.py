@@ -2,6 +2,7 @@
 
 from flask import Flask, request
 from pathlib import Path
+import requests
 
 app = Flask(__name__,
             static_url_path='/assets', 
@@ -16,7 +17,11 @@ def form_example():
 def extract_pdf_tables():
     file_name = request.form.get("file_name")
     file_type = request.form.get("file_type")
-    # file_pdf = request.form.get("file_pdf")
     dry_run = request.form.get("dry_run")
+    
+    # Get the file.
+    file = request.files.get("file")
+
+
 
     return f'file_name: {file_name}<br>dry_run: {dry_run}<br>file_type: {file_type}<br>'
