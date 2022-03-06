@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
 
-    <title>Signin Template for Bootstrap</title>
+    <title>Extractor Template for Bootstrap</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sign-in/">
 
@@ -25,63 +25,173 @@
         display: -ms-flexbox;
         display: flex;
         -ms-flex-align: center;
-        align-items: center;
-        padding-top: 40px;
-        padding-bottom: 40px;
+        align-items: left;
+        padding: 40px;
         background-color: #f5f5f5;
       }
 
-      .form-signin {
+      .form-extractor {
         width: 100%;
-        max-width: 330px;
-        padding: 15px;
+        padding: 32px;
         margin: auto;
+        text-align: left;
       }
-      .form-signin .checkbox {
+      .form-extractor .checkbox {
         font-weight: 400;
       }
-      .form-signin .form-control {
+      .form-extractor .form-control {
         position: relative;
         box-sizing: border-box;
         height: auto;
         padding: 10px;
         font-size: 16px;
+        margin: 18px;
       }
-      .form-signin .form-control:focus {
+      .form-extractor .form-control:focus {
         z-index: 2;
       }
-      .form-signin input[type="email"] {
+      .form-extractor input[type="email"] {
         margin-bottom: -1px;
         border-bottom-right-radius: 0;
         border-bottom-left-radius: 0;
       }
-      .form-signin input[type="password"] {
+      .form-extractor input[type="password"] {
         margin-bottom: 10px;
         border-top-left-radius: 0;
         border-top-right-radius: 0;
       }
+
+      .card-extractor {
+        display: inline-flex;
+        max-width: 625px;
+        width: 600px;
+        margin: auto;
+        background-color: #fff;
+        box-shadow: 0px 0px 8px 6px rgba(0, 0, 0, 0.0725);
+      }
+
+      .card-extractor .card-title {
+        text-align: left;
+        font-size: 16px;
+        color: #666;
+        margin-bottom: 0px;
+        padding-top: 8px;
+        font-weight: 600;
+      }
+
+      .form-extractor .button {
+
+      }
+
     </style>
   </head>
 
   <body class="text-center">
-    <form class="form-signin" method="post" enctype="multipart/form-data" action="http://localhost:5000">
-      <fieldset>
-	      <legend>Upload PDF Form</legend>
-	      <label for="inputEmail" class="sr-only">File name</label>
-	      <input type="text" id="inputName" class="form-control" value="test3" required name="file_name">
-	      <label for="inputEmail" class="sr-only">File type</label>
-	      <input type="text" id="inputType" class="form-control" value="pdf" required name="file_type">
-	      <label for="inputPassword" class="sr-only">Select PDF file</label>
-	      <input type="file" id="inputFile" class="form-control" required name="file_pdf">
-	      <div class="checkbox mb-3">
-	        <label>
-	          <input name="dry_run" type="checkbox" value="dry_run" checked="false"> Dry run
-	        </label>
-	      </div>
-	      <button class="btn btn-lg btn-primary btn-block" type="submit">Extract Tables</button>
-      </fieldset>
-      </form>
-    </form>
+
+    <!-- FORM -->
+    <div class="card card-extractor">
+      <div class="card-header">
+        <div class="card-title">Table Extractor</div>
+      </div>
+      <div class="card-body">
+        <form class="form-extractor" method="post" enctype="multipart/form-data" action="http://localhost:5000">
+          <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="inputEmail3">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="inputPassword3">
+            </div>
+          </div>
+          <fieldset class="form-group row">
+            <legend class="col-form-label col-sm-2 float-sm-left pt-0">Radios</legend>
+            <div class="col-sm-10">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                <label class="form-check-label" for="gridRadios1">
+                  First radio
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                <label class="form-check-label" for="gridRadios2">
+                  Second radio
+                </label>
+              </div>
+              <div class="form-check disabled">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
+                <label class="form-check-label" for="gridRadios3">
+                  Third disabled radio
+                </label>
+              </div>
+            </div>
+          </fieldset>
+          <div class="form-group row">
+            <div class="col-sm-10 offset-sm-2">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck1">
+                <label class="form-check-label" for="gridCheck1">
+                  Example checkbox
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="col-sm-10">
+              <button type="submit" class="btn btn-primary">Sign in</button>
+            </div>
+          </div>
+        </form>
+        <form class="form-extractor" method="post" enctype="multipart/form-data" action="http://localhost:5000">
+          <div class="form-group">
+            <div class="form-row">
+              <div class="col-lg-3">
+                <label for="inputName" class="form-label">File name</label>
+              </div>
+              <div class="col-lg-9">
+                <input type="text" id="inputName" class="form-control" value="test3" required name="file_name">
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputFileType" class="sr-only">File type</label>
+            <select class="custom-select" name="file_type" id="inputFileType">
+              <option selected>..</option>
+              <option value="pdf">PDF</option>
+              <option value="csv">CSV</option>
+              <option value="xls">Excel</option>
+              <option value="image">Scanned Image</option>
+            </select>  
+          </div>
+          <div class="form-group">
+            <div class="custom-file">
+              <input type="file" class="custom-file-input" id="inputFile" required name="file_pdf">
+              <label class="custom-file-label" for="customFile">Select the PDF file.</label>
+            </div>
+          </div>
+          <div class="checkbox mb-3">
+            <label>
+              <input name="dry_run" type="checkbox" value="dry_run" checked="false"> Dry run
+            </label>
+          </div>
+          <button class="btn btn-lg btn-primary btn-block" type="submit">Extract Tables</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- OUTPUT -->
+    <div class="col-lg-7">
+      <div class="card">
+        <div class="card-body">
+          This is some text within a card body.
+        </div>
+      </div>
+    </div>
+
   </body>
 </html>
 

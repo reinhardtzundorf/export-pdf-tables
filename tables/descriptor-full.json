@@ -1,0 +1,26 @@
+{
+  "fields": [
+    {
+      "name": "id",
+      "title": "#",
+      "type": "number",
+      "example": 1,
+      "description": "Auto-incrementing unique identifier column."
+    },
+    {
+      "name": "firstname",
+      "title": "First Name",
+      "type": "string",
+      "example": "Reinhardt",
+      "description": "First name of the applicant."
+    },
+    {
+      "name": "email",
+      "title": "Email Address",
+      "type": "email",
+      "example": "reinhardt.zundorf@gmail.com",
+      "description": "Primary email address for the applicant."
+    }
+  ],
+  "primaryKey": "id"
+}

@@ -16,4 +16,4 @@ def extract_pdf_tables():
     # file_pdf = request.form.get("file_pdf")
     dry_run = request.form.get("dry_run")
 
-    return f'file_name: {file_name}<br>' . f'dry_run: {dry_run}<br>' . f'file_type: {file_type}<br>'
+    return f'file_name: {file_name}<br>dry_run: {dry_run}<br>file_type: {file_type}<br>'

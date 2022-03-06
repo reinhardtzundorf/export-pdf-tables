@@ -1,0 +1,12 @@
+{
+  "fields": [
+    {
+      "name": "name of field (e.g. column name)",
+      "title": "A nicer human readable label or title for the field",
+      "type": "A string specifying the type",
+      "format": "A string specifying a format",
+      "example": "An example value for the field",
+      "description": "A description for the field"
+    },
+  ]
+}
