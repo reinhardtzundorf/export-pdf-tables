@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "pdf-export-tables"
+version = "0.1.0"
+description = "Back-end application which extracts and processes tabular data from PDF documents."
+authors = ["Reinhardt Zundorf <reinhardt.zundorf@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
