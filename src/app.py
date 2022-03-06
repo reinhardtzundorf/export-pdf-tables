@@ -3,7 +3,10 @@
 from flask import Flask, request
 from pathlib import Path
 
-app = Flask(__name__)
+app = Flask(__name__,
+            static_url_path='/assets', 
+            static_folder='assets',
+            template_folder='templates')
 
 @app.route("/", methods=["GET"])
 def form_example():
